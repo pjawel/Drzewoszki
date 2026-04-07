@@ -474,7 +474,7 @@ const Footer = () => {
 
 export default function App() {
   return (
-    <div className="min-h-screen font-sans text-gray-900 selection:bg-pink-100 selection:text-pink-900 font-light">
+    <div className="min-h-screen font-sans text-gray-900 selection:bg-pink-100 selection:text-pink-900 font-light overflow-x-hidden">
       <Navbar />
       <main>
         <Hero />
